@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ro.lmn.maven.recipe</groupId>
+  <artifactId>aggregate</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Maven Recipe: Aggregate jar</name>
+  <description>This project shows how to build a single jar out of all the jar-packaged modules.</description>
+  <inceptionYear>2010</inceptionYear>
+  <organization>
+  	<name>LMN</name>
+  	<url>http://lmn.ro/</url>
+  </organization>
+  <modules>
+  	<module>aggregate-first-module</module>
+  	<module>aggregate-second-module</module>
+  	<module>aggregate-dist</module>
+  </modules>
+</project>
